@@ -3,7 +3,7 @@ header{
     align-self: baseline;
     background-color: rgb(187, 227, 248);
     border-radius: 20px;
-    padding-left: 25px;
+    padding-left: 30px;
 }
 
 /* aqui o corpo do fomulário será editada */
@@ -21,7 +21,7 @@ body{
     box-shadow: 0 2px 5px rgb(87, 199, 255);
 }
 
-/* aqui o rodapé do fomulário será editada */
+
 
 
 /* aqui o botão do fomulário será editada */
@@ -34,4 +34,16 @@ button{
     border-radius: 10px;
     padding: 10px 15px;
     cursor: pointer;
+}
+
+/* aqui o rodapé do fomulário será editada */
+footer{
+    background-color: #527aab; ;
+    color: #ddfaff ;
+    text-align: center;
+    padding: 1px;
+    position:sticky;
+    bottom:0px;
+    width: 100%;
+    border-radius: 10px;
 }

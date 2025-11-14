@@ -1,0 +1,37 @@
+/* aqui o cabeçalho do fomulário será editada */
+header{
+    align-self: baseline;
+    background-color: rgb(187, 227, 248);
+    border-radius: 20px;
+    padding-left: 25px;
+}
+
+/* aqui o corpo do fomulário será editada */
+body{
+    background-color: rgb(215, 242, 255);
+    font-family: "Funnel Display", sans-serif;
+    margin: 25px; 
+}
+
+/* aqui a forma do fomulário será editada */
+.forma{
+    background-color:  rgb(177, 225, 249);
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0 2px 5px rgb(87, 199, 255);
+}
+
+/* aqui o rodapé do fomulário será editada */
+
+
+/* aqui o botão do fomulário será editada */
+button{
+    display: block;
+    margin-top: 20px;
+    background: #527aab;
+    color: #ffffff;
+    border: 10px;
+    border-radius: 10px;
+    padding: 10px 15px;
+    cursor: pointer;
+}

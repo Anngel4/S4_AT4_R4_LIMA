@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<header>
+    <h1>Formulário de Inscrição para Workshop de Desenvolvimento Web</h1>
+</header>
+
+<body>
+    <form action="#" method="post" class="forma">
+        <fieldset>
+            <legend>Informações pessoais</legend>
+            <label for="nome">Nome completo:</label>
+            <input type="text" id="nome" name="nome" placeholder="Ex: Hytalo Santos" required>
+
+            <label for="city">Cidade:</label>
+            <input type="text" id="city" name="city" placeholder="Ex: Roraima" required>
+
+            <label for="cpf">CPF: </label> <!-- Esse label está relacionado ao input de id cpf -->
+            <input type="text" id="cpf" name="cpf" maxlength="14" pattern="^\d{3}\.\d{3}\.\d{3}-\d{2}$"
+                title="Formato: 000.000.000-00">
+        </fieldset>
+
+        <!-- Informações pessoais que são obrigatórias(required) -->
+        <fieldset>
+            <legend>Informações de contato</legend>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="hytaloSantos@email.com" required>
+
+            <label for="fone">Telefone</label>
+            <input type="tel" id="Telefone" name="Telefone" placeholder="Ex:(XX)XXXX-XXXX"
+                title="Seu telefone tem que ter 11 DÍGITOS!!! que-ri-di-nha." required>
+
+        </fieldset>
+
+
+        <!-- Turnos e interesses-->
+        <fieldset>
+            <legend>Turno preferencial do workshop</legend>
+            <label for="turno">
+                <input type="radio" id="manha" label="Manha" value="Dia" required>
+                <label for="genero">Manhã</label>
+                <input type="radio" id="tarde" label="Tarde" value="Meio" required>
+                <label for="genero">Tarde</label>
+                <input type="radio" id="noite" label="Noite" value="Fim" required>
+                <label for="genero">Noite</label>
+            </label>
+            <legend>
+                <h3>Onde tenho mais interesse....</h3>
+            </legend>
+            <label>
+                <input type="checkbox" id="network" label="network" value="network">
+                <label for="network">Networking </label>
+                <input type="checkbox" id="palestras " label="palestra" value="palestras">
+                <label for="palestras ">Palestras </label>
+                <input type="checkbox" id="feedback" label="feed" value="feed">
+                <label for="feedback">Feedback e Mentoria</label>
+            </label>
+        </fieldset>
+
+        <!-- Faixa etária -->
+        <fieldset>
+            <legend>Faixa etária</legend>
+            <label for="fe">
+                <select id="fe" name="fe">
+                    <option value=""> Selecione sua Faixa etária</option>
+                    <option value="crianca">10 a 15</option>
+                    <option value="adolescente">16 a 20</option>
+                    <option value="adulto">21 a 30</option>
+                    <option value="adulto">31 a 40</option>
+                    <option value="idoso">mais de 41</option>
+        </fieldset>
+
+
+        <fieldset>
+            <label for="search"><b>Pesquisar inspirações</b></label>
+            <input type="search" id="Pesquisa" name="srch" placeholder="Procurar arquivos...">
+
+            <br><br>
+
+            <label for="upload"><b>Upload currículo</b></label>
+            <input type="file" id="upload" name="EnviarArquivo">
+        </fieldset>
+
+        <fieldset>
+            <legend>
+                <h4>Deixe um comentário sobre algo!</h4>
+            </legend>
+            <textarea id="texto" name="texto" placeholder="Ex: Acredito que.." rows="5" cols="10"></textarea>
+        </fieldset>
+
+        <button type="submit">Enviar</button> <!-- enviar formulário -->
+    </form>
+
+</body>
+
+</html>
